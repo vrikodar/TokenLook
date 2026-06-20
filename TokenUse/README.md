@@ -9,7 +9,7 @@
 
   ```bash
   git clone https://github.com/vrikodar/TokenLook
-  cd TokenLook/TokenUse
+  cd TokenLook/TokenUse/source
 
   # configure and activate venv
   python3 -m venv local_venv
