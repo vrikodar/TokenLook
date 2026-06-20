@@ -13,3 +13,6 @@ For documentation and use refer to:- [https://github.com/vrikodar/TokenLook/wiki
 - [https://learn.microsoft.com/en-us/previous-versions/office/office-365-api/api/version-2.0/mail-rest-operations](https://learn.microsoft.com/en-us/previous-versions/office/office-365-api/api/version-2.0/mail-rest-operations)
 - [https://blog.xpnsec.com/wam-bam/](https://blog.xpnsec.com/wam-bam/)
 - [https://mrd0x.com/stealing-tokens-from-office-applications/](https://mrd0x.com/stealing-tokens-from-office-applications/)
+
+# Important thing(s) to note
+-> TokenLook has been successfully tested against enterprise O365 accounts, email accouts created directly on "outlook.com" usually don't work with this tool, as during testing it was found that these accounts tend to use different APIs than the usual "Outlook Mail REST API".
