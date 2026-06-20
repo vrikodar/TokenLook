@@ -15,4 +15,4 @@ For documentation and use refer to:- [https://github.com/vrikodar/TokenLook/wiki
 - [https://mrd0x.com/stealing-tokens-from-office-applications/](https://mrd0x.com/stealing-tokens-from-office-applications/)
 
 # Important thing(s) to note
-1.) TokenLook has been successfully tested against enterprise O365 accounts, email accouts created directly on "outlook.com" usually don't work with this tool, as during testing it was found that these accounts tend to use different APIs than the usual "Outlook Mail REST API".
+1.) TokenLook has been successfully tested against enterprise O365 accounts, email accounts created directly on "outlook.com" usually don't work with this tool, as during testing it was found that these accounts tend to use different APIs than the usual "Outlook Mail REST API".
