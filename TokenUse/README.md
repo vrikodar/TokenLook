@@ -5,7 +5,7 @@
 * The current directory `TokenUse` contains source code files to use the JWT tokens
 
 ### Setup 
-* It is recommended that you use the tool within a VENV environment
+* It is recommended that you use the tool from within a VENV environment
 
   ```bash
   git clone https://github.com/vrikodar/TokenLook
