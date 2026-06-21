@@ -21,6 +21,21 @@ ls extract_noexfil.cs
 # This is the source code for C#, which will create the Outlook process dump using ProcessDump and then parse it 
 ```
 
+### `extract_noexfil.cs`
+* As I am **no expert in C# yet**, the [source code](https://raw.githubusercontent.com/vrikodar/TokenLook/refs/heads/main/TokenExtract/source/extract_noexfil.cs) in this file is a bit AI tweaked/enhanced.
+* The program on a high level does following:
+  * Looks for the `ProcessDump.exe` in the local directory
+  * Once `ProcessDump.exe` binary is found, the program will search for the Outlook app's process ID
+  * Once the Outlook app is found to be running on the machine, the Program will use `ProcessDump.exe` to create a full memory dump of the Outlook process
+  * The memory dump file is saved to the APP DATA directory of the user under who's context the binary is run 
+    * **Note that in some cases "depending on the environment" this memory dump can be of large size >1Gb**
+  * Once the memory dump is created, the program will parse the DMP file chunk by chunk and extract all strings from it.
+  * All the extracted strings are then saved to a TXT file in the same directory.
+
+### Retrieving JWT tokens from the TXT file \(Manually\)
+* Manually look for the strings starting with `"eyJ0"` inside the TXT file
+* As tokens are found, we need to [decode](https://jwt.ms/) them to find a token, which on decoding has the `aud` feild set to `https://outlook.office.com` or `https://outlook.office365.com`
+
 
 ### Combining ProcessDump and `Custom C# memory parser`
 
