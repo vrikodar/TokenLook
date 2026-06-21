@@ -1,4 +1,5 @@
 # Using the extarcted JWT tokens
+# For more detailed documentation related to `TokenUse` refer to the [WIKI](https://github.com/vrikodar/TokenLook/wiki/TokenLook-%E2%80%90-TokenUse)
 
 ## Command Line version 
 * The command line interface of tool runs in a specific format.
@@ -45,6 +46,3 @@
 
 ## WebUI Interface 
 * This section will be updated soon "Stay tuned"
-
-# For more detailed documentation related to `TokenUse` refer to the [WIKI](https://github.com/vrikodar/TokenLook/wiki/TokenLook-%E2%80%90-TokenUse)
-
