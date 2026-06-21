@@ -6,7 +6,7 @@
 
 
 ## Extraction from memory 
-* The first research post above talks about extracting tokens from the outlook process memory, and that is what exactly we would also be doing
+* The first research post talks about extracting tokens from the outlook process memory, and that is what exactly we would also be doing
 * we will combining a custom C sharp memory parser with legitimate tool "ProcessDump" from Microsoft
 
 ### Combining ProcessDump and `Custom C# memory parser`
