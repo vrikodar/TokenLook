@@ -216,7 +216,6 @@ def send_email_without_attachment(jwt_token_value, proxy_list) -> None:
 
     if rcv_resp.status_code == 202:
         print(f"[{bblue}INFO{noclr}] status code {bgreen}{rcv_resp.status_code} OK{noclr}")
-        print(f"[{bblue}INFO{noclr}] {bblue}Message ID:{noclr} {cyan}{rcv_resp.json().get("Id", "")}{noclr}")
     else:
         print(f"[{bblue}INFO{noclr}] status code {bred}{rcv_resp.status_code}{noclr}")
         print(f"[{bred}!{noclr}] something went wrong!")
