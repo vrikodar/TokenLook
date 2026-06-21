@@ -31,10 +31,12 @@ ls extract_noexfil.cs
     * **Note that in some cases "depending on the environment" this memory dump can be of large size >1Gb**
   * Once the memory dump is created, the program will parse the DMP file chunk by chunk and extract all strings from it.
   * All the extracted strings are then saved to a TXT file in the same directory.
+* The `C#` code can be compiled simply by creating a new project in VS or from command line
 
 ### Retrieving JWT tokens from the TXT file \(Manually\)
 * Manually look for the strings starting with `"eyJ0"` inside the TXT file
 * As tokens are found, we need to [decode](https://jwt.ms/) them to find a token, which on decoding has the `aud` feild set to `https://outlook.office.com` or `https://outlook.office365.com`
+  * This process will be automated in a future release
 
 
 ### Combining ProcessDump and `Custom C# memory parser`
