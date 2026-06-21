@@ -15,6 +15,9 @@
   python3 -m venv local_venv
   source local_venv/bin/activate
 
+  # Install libraries
+  pip3 install requests tabulate 
+
   # run the main script to initiate execution
   python3 main.py
   ```
