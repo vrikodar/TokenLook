@@ -40,5 +40,8 @@
   * `mail_numb`: The maximum number of emails tool will extract, 10 is the minimum value, specify more if required.
   * `keyword_search`: List of keywords the tool will look for in the extracted emails, useful in cases such as looking for clear text credentials in emails.
 
+## WebUI Interface 
+* This section will be updated soon "Stay tuned"
+
 # For more detailed documentation related to `TokenUse` refer to the WIKI
 [TokenLook ‐ TokenUse](https://github.com/vrikodar/TokenLook/wiki/TokenLook-%E2%80%90-TokenUse)
