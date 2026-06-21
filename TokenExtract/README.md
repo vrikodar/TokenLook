@@ -40,7 +40,12 @@ ls extract_noexfil.cs
 
 
 ### Combining ProcessDump and `Custom C# memory parser`
-
+* During testing it was found that most of the times Outlook app runs as `OUTLOOK.exe` but in some cases the program might be running as `otlk.exe`
+* The C# program first looks for `OUTLOOK.exe`, if not found, the program falls back to `otlk.exe`
+* Demo run screenshot below:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vrikodar/TokenLook/refs/heads/main/Images/program_exe_noexfil.png" alt="Image Description">
+</p>
 
 ## Extraction from TBRES files
 * The second research post talks about extracting the same tokens from TBRES files, which are DPAPI encrypted
