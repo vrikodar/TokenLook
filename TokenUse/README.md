@@ -41,4 +41,4 @@
   * `keyword_search`: List of keywords the tool will look for in the extracted emails, useful in cases such as looking for clear text credentials in emails.
 
 # For more detailed documentation related to `TokenUse` refer to the WIKI
-https://github.com/vrikodar/TokenLook/wiki/TokenLook-%E2%80%90-TokenUse
+[TokenLook ‐ TokenUse](https://github.com/vrikodar/TokenLook/wiki/TokenLook-%E2%80%90-TokenUse)
