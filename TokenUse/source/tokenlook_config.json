@@ -1,0 +1,7 @@
+{
+  "current_jwt": ["JWT-VALUE1", "JWT-VALUE2"],
+  "data_dir": "local_data",
+  "proxy": ["http://127.0.0.1:8080"],
+  "mail_numb": 10,
+  "keyword_search": ["pass", "username", "credentials", "key"]
+}
