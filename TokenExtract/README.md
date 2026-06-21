@@ -47,4 +47,4 @@ ls extract_noexfil.cs
 * It is however worth noting that use of DPAPI for actions such as TBRES file decryption can easily be flagged by EDRs
   * As of now we won't be touching this method of extraction, possibly in futre updates
  
-**For More Detailed Documentation Refer to the** (WIKI)[https://github.com/vrikodar/TokenLook/wiki/TokenLook-%E2%80%90-TokenExtract]
+# **For More Detailed Documentation Refer to the** [WIKI](https://github.com/vrikodar/TokenLook/wiki/TokenLook-%E2%80%90-TokenExtract)
