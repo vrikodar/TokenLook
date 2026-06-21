@@ -275,7 +275,6 @@ def send_email_with_attachment(jwt_token_value, proxy_list) -> None:
 
     if rcv_resp.status_code == 202:
         print(f"[{bblue}INFO{noclr}] status code {bgreen}{rcv_resp.status_code} OK{noclr}")
-        print(f"[{bblue}INFO{noclr}] {bblue}Message ID:{noclr} {cyan}{rcv_resp.json().get("Id", "")}{noclr}")
     else:
         print(f"[{bblue}INFO{noclr}] status code {bred}{rcv_resp.status_code}{noclr}")
         print(f"[{bred}!{noclr}] something went wrong!")
@@ -761,6 +760,7 @@ if __name__ == "__main__":
         print(resp_json_str)
 
         # Start getting mail messages multiple
+        # Now in original tool we will have the user hard code the limit in the JSON config file
         # we will create a local disk copy of all the emails.
         # we will create another directory inside the data directory specific to the user
         user_data_dir = data_dir + "/" + resp_json.get("DisplayName").split(" ")[0] + "_"  + resp_json.get("MailboxGuid")
@@ -906,3 +906,4 @@ if __name__ == "__main__":
         [{bblue}ASK{noclr}] Initializing {bred}Send-email Menu for current user Context{noclr} Enter {bgreen}Y/y{noclr} to continue OR  {bred}N/n{noclr} to stop 
         [{bblue}INFO{noclr}]{cyan} Note that selecting Y/y will automatically clear the console!{noclr}-->
         """
+
