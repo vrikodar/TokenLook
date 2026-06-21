@@ -1,6 +1,7 @@
 # TokenLook
 
 Complete toolkit for Extraction and Use of JWT tokens from Outlook process memory (Outlook Mail REST API)
+**Note: WIKI documentation is still being updated**
 
 <p align="center">
   <img width=500 src="https://raw.githubusercontent.com/vrikodar/TokenLook/refs/heads/main/Images/snakelook.png" alt="Image Description">
