@@ -1,6 +1,6 @@
 # Extracting tokens from the OutLook Process
 
-* There are majorly two research posts talking about extraction of JWT tokens from Outlook
+* There are majorly two research posts talking about extraction of JWT tokens from Outlook APP
 * First is [https://mrd0x.com/stealing-tokens-from-office-applications/](https://mrd0x.com/stealing-tokens-from-office-applications/)
 * Second is [https://blog.xpnsec.com/wam-bam/](https://blog.xpnsec.com/wam-bam/)
 
