@@ -1,6 +1,6 @@
 # TokenLook
 
-Complete toolkit for Extraction and Use of JWT tokens from Outlook process memory (**Outlook Mail REST API**)
+TokenLook is a complete toolkit for Extraction and Use of JWT tokens from Outlook process memory (**Outlook Mail REST API**)
 
 **Note: WIKI documentation is still being updated**
 
